@@ -1,9 +1,9 @@
 #FIR BSF filter Design using Windowing techniques
 #comparing own function with built-in function
-
 from numpy import cos, sin, pi, absolute, arange, zeros
 from scipy.signal import hamming,firwin, freqz
 from pylab import figure, clf, plot, xlabel, ylabel, xlim, ylim, title, grid, axes, show
+
 
 N = eval(input('Enter the filter order N='))
 
